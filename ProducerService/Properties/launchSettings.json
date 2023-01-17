@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "GomXmlService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "DockerfileRunArguments": "-v D:\\Processing:/processing"
+    }
+  }
+}
