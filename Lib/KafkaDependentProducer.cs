@@ -61,10 +61,15 @@ namespace Kenso.Loaders.Gom
         public async Task EnsureTopicExists()
         {
             _logger.LogInformation("Checking if topic exists.");
+            if (_kafkaOptions.ProducerSettings == null || _kafkaOptions.ProducerSettings["BootstrapServers"] == null)
+            {
+                throw new ArgumentException("Kafka:ProducerSettings:BootstrapServers setting nor provided!");
+            }
+
             var admin = new AdminClientBuilder(
                     new AdminClientConfig
                     {
-                        BootstrapServers = _kafkaOptions.BootstrapServers
+                        BootstrapServers = _kafkaOptions.ProducerSettings["BootstrapServers"]
                     })
                 .Build();
 
