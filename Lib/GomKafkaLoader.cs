@@ -1,6 +1,7 @@
 ﻿using Confluent.Kafka;
 using Kenso.Loaders.Gom.Model;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 namespace Kenso.Loaders.Gom
 {
@@ -8,18 +9,20 @@ namespace Kenso.Loaders.Gom
     {
         private readonly GomXmlParser _gomXmlParser;
         private readonly KafkaDependentProducer<string, GomFeatureMessage> _kafkaProducer;
+        private readonly IOptions<GomOptions> _gomOptions;
         private readonly ILogger<GomKafkaLoader> _logger;
 
-        public GomKafkaLoader(GomXmlParser gomXmlParser, KafkaDependentProducer<string, GomFeatureMessage> kafkaProducer, ILogger<GomKafkaLoader> logger)
+        public GomKafkaLoader(GomXmlParser gomXmlParser, KafkaDependentProducer<string, GomFeatureMessage> kafkaProducer, IOptions<GomOptions> gomOptions, ILogger<GomKafkaLoader> logger)
         {
             _gomXmlParser = gomXmlParser;
             _kafkaProducer = kafkaProducer;
+            _gomOptions = gomOptions;
             _logger = logger;
         }
 
         public void Run()
         {
-            var elementsList = _gomXmlParser.GetGomElements();
+            var elementsList = _gomXmlParser.GetGomElements(_gomOptions.Value.PathToXmlDir);
             if (!elementsList.Any())
             {
                 return;
@@ -52,7 +55,9 @@ namespace Kenso.Loaders.Gom
                 }
             }
 
-            _gomXmlParser.Clenup(elementsList.Select(p=> p.FileName));
+            _gomXmlParser.Archive(elementsList.Select(p => p.FileName),
+                _gomOptions.Value.PathToXmlDir,
+                _gomOptions.Value.PathToArchiveDir);
         }
 
         public List<GomFeatureMessage> CreateMessage(GomElements elements)

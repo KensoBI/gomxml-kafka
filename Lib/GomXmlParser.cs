@@ -1,31 +1,29 @@
-﻿using System.Xml.Serialization;
+﻿using System.IO.Compression;
+using System.Xml.Serialization;
 using Kenso.Loaders.Gom.Model;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace Kenso.Loaders.Gom
 {
     public class GomXmlParser
     {
-        private readonly GomOptions _gomOptions;
         private readonly ILogger<GomXmlParser> _logger;
 
-        public GomXmlParser(IOptions<GomOptions> gomOptions, ILogger<GomXmlParser> logger)
+        public GomXmlParser(ILogger<GomXmlParser> logger)
         {
-            _gomOptions = gomOptions.Value;
             _logger = logger;
         }
 
-        public List<GomElements> GetGomElements()
+        public List<GomElements> GetGomElements(string pathToXmlDir)
         {
-            if (string.IsNullOrEmpty(_gomOptions.PathToXmlDir) || !Directory.Exists(_gomOptions.PathToXmlDir))
+            if (string.IsNullOrEmpty(pathToXmlDir) || !Directory.Exists(pathToXmlDir))
             {
-                throw new ArgumentException("'PathToXmlDir' not provided or does not exist.");
+                throw new ArgumentException("'pathToXmlDir' not provided or does not exist.");
             }
 
             var gomElementsList = new List<GomElements>();
-            _logger.LogInformation("Reading XML files in {pathToXmlDir}", _gomOptions.PathToXmlDir);
-            var filePaths = Directory.GetFiles(_gomOptions.PathToXmlDir, "*.xml");
+            _logger.LogInformation("Reading XML files in {pathToXmlDir}", pathToXmlDir);
+            var filePaths = Directory.GetFiles(pathToXmlDir, "*.xml");
 
             if (!filePaths.Any())
             {
@@ -473,9 +471,39 @@ namespace Kenso.Loaders.Gom
             return crs;
         }
 
-        public void Clenup(IEnumerable<string> fileName)
+        public void Archive(IEnumerable<string> fileNames,string sourceDir, string destinationDir)
         {
-            //todo archive
+            foreach (var fileName in fileNames)
+            {
+                var sourceFileFullPath = Path.Combine(sourceDir, fileName);
+                if (!File.Exists(sourceFileFullPath))
+                {
+                    continue;
+                }
+
+                if (string.IsNullOrEmpty(destinationDir))
+                {
+                    File.Delete(sourceFileFullPath);
+                    continue;
+                }
+
+                var fileToBeGZipped = new FileInfo(sourceFileFullPath);
+                var gzipFileName = new FileInfo(Path.Combine(destinationDir, string.Concat(fileName, ".gz")));
+
+                using var fileToBeZippedAsStream = fileToBeGZipped.OpenRead();
+                using var gzipTargetAsStream = gzipFileName.Create();
+                using var gzipStream = new GZipStream(gzipTargetAsStream, CompressionMode.Compress);
+                try
+                {
+                    fileToBeZippedAsStream.CopyTo(gzipStream);
+                    fileToBeZippedAsStream.Dispose();
+                    File.Delete(sourceFileFullPath);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Unable to archive file.");
+                }
+            }
         }
     }
 }

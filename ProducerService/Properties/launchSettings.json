@@ -9,7 +9,7 @@
     },
     "Docker": {
       "commandName": "Docker",
-      "DockerfileRunArguments": "-v D:\\Processing:/processing"
+      "DockerfileRunArguments": "-v D:\\Processing:/processing -v D:\\Processing\\archive:/archive"
     }
   }
 }
