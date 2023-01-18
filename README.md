@@ -7,6 +7,7 @@
 - Monitor a specified folder for XML files
 - Parse GOM XML and extract primitive elements with measurements
 - Produce and send Kafka messages for each feature
+- Archive processed file
 
 **Features:**
 - Runs in a container
