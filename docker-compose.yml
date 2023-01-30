@@ -63,6 +63,7 @@ services:
       PORT: 9021
 
   gomxml-producer:
+    container_name: gomxml-producer
     image: kensobi/gomxml-producer
     build:
       context: .
@@ -70,6 +71,7 @@ services:
     restart: always
     volumes:
       - d:\Processing:/processing
+      - d:\Processing\archive:/archive
     environment:
       Kafka__ProducerSettings__BootstrapServers: kafka:29092
       Kafka__Topic: dev.kenso.gom.xml

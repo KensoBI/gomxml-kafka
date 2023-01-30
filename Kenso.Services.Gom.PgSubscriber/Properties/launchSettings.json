@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Kenso.Loaders.Gom.PgSubscriberService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

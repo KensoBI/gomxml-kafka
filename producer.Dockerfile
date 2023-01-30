@@ -5,18 +5,20 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["ProducerService/Kenso.Loaders.Gom.ProducerService.csproj", "ProducerService/"]
-COPY ["Lib/Kenso.Loaders.Gom.csproj", "Lib/"]
-COPY ["Model/Kenso.Loaders.Gom.Model.csproj", "Model/"]
-RUN dotnet restore "ProducerService/Kenso.Loaders.Gom.ProducerService.csproj"
+COPY ["Kenso.Services.Gom.XmlProducer/Kenso.Services.Gom.XmlProducer.csproj", "Kenso.Services.Gom.XmlProducer/"]
+COPY ["Kenso.Loaders.Gom/Kenso.Loaders.Gom.csproj", "Kenso.Loaders.Gom/"]
+COPY ["Kenso.Data.Kafka/Kenso.Data.Kafka.csproj", "Kenso.Data.Kafka/"]
+COPY ["Kenso.Data.Repository/Kenso.Data.Repository.csproj", "Kenso.Data.Repository/"]
+COPY ["Kenso.Domain/Kenso.Domain.csproj", "Kenso.Domain/"]
+RUN dotnet restore "Kenso.Services.Gom.XmlProducer/Kenso.Services.Gom.XmlProducer.csproj"
 COPY . .
-WORKDIR "/src/ProducerService"
-RUN dotnet build "Kenso.Loaders.Gom.ProducerService.csproj" -c Release -o /app/build
+WORKDIR "/src/Kenso.Services.Gom.XmlProducer"
+RUN dotnet build "Kenso.Services.Gom.XmlProducer.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Kenso.Loaders.Gom.ProducerService.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Kenso.Services.Gom.XmlProducer.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Kenso.Loaders.Gom.ProducerService.dll"]
+ENTRYPOINT ["dotnet", "Kenso.Services.Gom.XmlProducer.dll"]
