@@ -4,6 +4,7 @@ using Kenso.Data.Repository;
 using Kenso.Domain;
 using Kenso.Loaders.Gom.Model;
 using Microsoft.Extensions.Logging;
+using System.Reflection.PortableExecutable;
 
 namespace Kenso.Loaders.Gom
 {
@@ -50,9 +51,16 @@ namespace Kenso.Loaders.Gom
             {
                 actualFeatureId = await SaveFeature(message.Value.Feature, partId, source);
             }
-            var featureId = await SaveFeature(message.Value.Feature, partId, source, actualFeatureId);
 
-            _logger.LogInformation("test:" + featureId);
+            var featureId = await SaveFeature(message.Value.Feature, partId, source, actualFeatureId);
+            foreach (var gomCharacteristic in message.Value.Feature.Characteristics)
+            {
+                var characteristicId =  await SaveCharacteristic(gomCharacteristic, featureId, source);
+                foreach (var gomMeasurement in gomCharacteristic.Measurements)
+                {
+                    await SaveMeasurement(gomMeasurement, characteristicId, message.Value.ImportDate, source);
+                }
+            }
         }
 
         public async Task<long> SavePart(GomPart part, long modelId, string source)
@@ -93,13 +101,61 @@ namespace Kenso.Loaders.Gom
             return await _repository.FeatureRepository.Upsert(featureToInsert, partId, source);
         }
 
-        private Feature MapFeature(GomFeature feature)
+        private static Feature MapFeature(GomFeature feature)
         {
             return new Feature(feature.Name)
             {
                 Comment = feature.Comment,
                 Type = feature.Type,
                 ExternalId = feature.GomId.ToString()
+            };
+        }
+
+        public async Task<long> SaveCharacteristic(GomCharacteristic characteristic, long featureId, string source)
+        {
+            if (string.IsNullOrEmpty(characteristic.Name))
+            {
+                _logger.LogWarning("Unable to save Characteristic. Characteristic name not provided.");
+                return 0;
+            }
+
+            var characteristicToInsert = MapCharacteristic(characteristic);
+            return await _repository.CharacteristicRepository.Upsert(characteristicToInsert, featureId, source);
+        }
+
+        private static Characteristic MapCharacteristic(GomCharacteristic characteristic)
+        {
+            return new Characteristic
+            {
+                Name = characteristic.Name,
+                Nominal = characteristic.Nominal,
+                Lsl = characteristic.Lsl,
+                Usl = characteristic.Usl,
+                LslWarn = characteristic.LslWarn,
+                UslWarn = characteristic.UslWarn,
+                Unit = characteristic.Unit
+            };
+        }
+
+        public async Task SaveMeasurement(GomMeasurement measurement, long characteristicId, DateTime measurementDateTime, string source)
+        {
+            if (!measurement.Value.HasValue)
+            {
+                _logger.LogWarning("Unable to save Measurement. Measurement value not set.");
+                return;
+            }
+            var measurementToInsert = MapMeasurement(measurement, measurementDateTime);
+            await _repository.MeasurementRepository.Insert(measurementToInsert, characteristicId, source);
+        }
+
+        private static Measurement MapMeasurement(GomMeasurement measurement, DateTime measurementDateTime)
+        {
+            return new Measurement
+            {
+                Value = measurement.Value ?? 0,
+                Nominal = measurement.Nominal,
+                Deviation = measurement.Deviation,
+                DateTime = measurementDateTime
             };
         }
     }

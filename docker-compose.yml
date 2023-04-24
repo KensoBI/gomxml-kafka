@@ -78,3 +78,22 @@ services:
       Kafka__SchemaRegistries: http://schema-registry:8081
       Kafka__NumPartitions: 2
       Kafka__ReplicationFactor: 1
+
+  postgres:
+    image: kensobi/postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=kensobi
+      - POSTGRES_PASSWORD=kensobiuser
+      - POSTGRES_DB=kensobi
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

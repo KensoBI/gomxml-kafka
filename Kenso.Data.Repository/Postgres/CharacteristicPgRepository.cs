@@ -16,7 +16,7 @@ namespace Kenso.Data.Repository.Postgres
             const string sql = "WITH new_characteristic AS (INSERT INTO characteristic " +
                                "(feature_id, name, description, nominal, usl, lsl, usl_warn, lsl_warn, unit, external_id, create_timestamp, update_timestamp, updated_by) " +
                                "VALUES (@featureId, @name, @description, @nominal, @usl, @lsl, @uslWarn, @lslWarn, @unit, @externalId, NOW(), NOW(), @source) " +
-                               "ON CONFLICT (part_id, name) DO UPDATE " +
+                               "ON CONFLICT (name, feature_id) DO UPDATE " +
                                "SET " +
                                    "feature_id = @featureId," +
                                    "name = @name, " +
@@ -33,7 +33,7 @@ namespace Kenso.Data.Repository.Postgres
                                "RETURNING id)" +
                                "SELECT COALESCE(\r\n" +
                                "    (SELECT id FROM new_characteristic),\r\n" +
-                               "    (SELECT id FROM characteristic WHERE part_id = @partId AND name = @featureName) \r\n)" +
+                               "    (SELECT id FROM characteristic WHERE feature_id = @featureId AND name = @name) \r\n)" +
                                " AS featureId;";
 
             await using var dataSource = NpgsqlDataSource.Create(_connectionString);
