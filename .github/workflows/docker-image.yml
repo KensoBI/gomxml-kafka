@@ -1,0 +1,27 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build gomxml-producer image
+      run: docker build . --file producer.Dockerfile --tag kensobi/gomxml-producer:$(date +%s)
+      
+    - name: Login to DockerHub
+      run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
+      
+    - name: Push gomxml-producer
+      run: docker push kensobi/gomxml-producer:$(date +%s)
+      
+    - name: Tag gomxml-producer
+      run: docker tag kensobi/gomxml-producer:$(date +%s) kensobi/gomxml-producer:latest
