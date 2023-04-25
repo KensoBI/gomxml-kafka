@@ -21,5 +21,12 @@ jobs:
       run: |
             docker build . --file producer.Dockerfile --tag kensobi/gomxml-producer:latest
             docker push kensobi/gomxml-producer:latest
-            docker tag kensobi/gomxml-producer:latest kensobi/gomxml-producer:$(date +%s)    
+            docker tag kensobi/gomxml-producer:latest kensobi/gomxml-producer:$(date +%s)
+            docker push kensobi/gomxml-producer:$(date +%s)
    
+    - name: Build, push and tag gomxml-pgsubscriber
+      run: |
+            docker build . --file pgsubscriber.Dockerfile --tag kensobi/gomxml-pgsubscriber:latest
+            docker push kensobi/gomxml-pgsubscriber:latest
+            docker tag kensobi/gomxml-pgsubscriber:latest kensobi/gomxml-pgsubscriber:$(date +%s)
+            docker push kensobi/gomxml-pgsubscriber:$(date +%s)
