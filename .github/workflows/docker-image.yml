@@ -19,7 +19,7 @@ jobs:
       
     - name: Build, push and tag gomxml-producer
       run: |
-            docker build . --file producer.Dockerfile --tag kensobi/gomxml-producer:$(date +%s)
-            docker push kensobi/gomxml-producer:$(date +%s)
-            docker tag kensobi/gomxml-producer:$(date +%s) kensobi/gomxml-producer:latest    
+            docker build . --file producer.Dockerfile --tag kensobi/gomxml-producer:latest
+            docker push kensobi/gomxml-producer:latest
+            docker tag kensobi/gomxml-producer:latest kensobi/gomxml-producer:$(date +%s)    
    
