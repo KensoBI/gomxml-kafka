@@ -70,8 +70,8 @@ services:
       dockerfile: producer.Dockerfile
     restart: always
     volumes:
-      - d:\Processing:/processing
-      - d:\Processing\archive:/archive
+      - ./processing:/processing
+      - ./archive:/archive
     environment:
       Kafka__ProducerSettings__BootstrapServers: kafka:29092
       Kafka__Topic: dev.kenso.gom.xml
