@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gom>
+  <header>
+    <version>2019.1</version>
+    <length_unit>mm</length_unit>
+    <angle_unit>deg</angle_unit>
+  </header>
+  <nominal>
+    <circle id="16778846" name="Circle 2">
+      <actual>16778933</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="443.501308" y="750.000000" z="-4.992824"></pos>
+        <normal x="0.000000" y="1.000000" z="0.000000"></normal>
+        <radius>10.002147</radius>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.800000" upper_limit="0.800000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="1.167205"></deviation>
+          <measured x="443.922068" y="750.968386" z="-5.490376"></measured>
+        </all>
+        <diameter checked="1" unit_name="length">
+          <tolerance lower_limit="-1.000000" upper_limit="1.000000"></tolerance>
+          <nominal_scalar value="20.004294"></nominal_scalar>
+          <deviation value="0.423324"></deviation>
+          <measured value="20.427618"></measured>
+        </diameter>
+        <inplane checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="0.651611"></deviation>
+          <measured x="0.420760" y="0.000000" z="-0.497552"></measured>
+        </inplane>
+        <normal checked="0" name="Circle 2" unit_name="length">
+          <deviation value="0.968386"></deviation>
+          <measured x="0.000000" y="0.968386" z="0.000000"></measured>
+        </normal>
+      </result>
+    </circle>
+    <point id="16778842" name="Edge Point 2">
+      <actual>16778919</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="359.068826" y="719.713036" z="-33.091103"></pos>
+        <normal x="0.000000" y="0.000000" z="0.000000"></normal>
+        <trim x="-0.930791" y="0.361432" z="-0.054733"></trim>
+      </geometry>
+      <result>
+        <all checked="0" name="Edge Point 2" unit_name="length">
+          <deviation value="3.547427"></deviation>
+          <measured x="359.976773" y="723.114222" z="-32.653145"></measured>
+        </all>
+        <normal checked="0" name="Edge Point 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <trim checked="0" name="Edge Point 2" unit_name="length">
+          <deviation value="0.360218"></deviation>
+          <measured x="-0.335287" y="0.130194" z="-0.019716"></measured>
+        </trim>
+      </result>
+    </point>
+    <point id="16778840" name="Edge Point 1_copy">
+      <measure_opposite use="yes">0.700000</measure_opposite>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="332.476991" y="718.475497" z="48.420608"></pos>
+        <normal x="0.352356" y="0.926929" z="0.129024"></normal>
+        <trim x="-0.901234" y="0.373234" z="-0.220167"></trim>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.600000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <trim checked="1" unit_name="length">
+          <tolerance lower_limit="-2.000000" upper_limit="2.000000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </trim>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.700000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="332.476991"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="718.475497"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.200000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="48.420608"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </point>
+    <point id="16778834" name="Vector Point 2">
+      <state>not_computed</state>
+      <geometry>
+        <pos x="579.691049" y="753.000000" z="-59.985280"></pos>
+        <normal x="0.000000" y="1.000000" z="0.000000"></normal>
+      </geometry>
+      <result>
+        <all checked="0" name="Vector Point 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <inplane checked="0" name="Vector Point 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <normal checked="0" name="Vector Point 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+      </result>
+    </point>
+    <point id="16778838" name="Edge Point 1">
+      <actual>16778918</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="332.476991" y="718.475497" z="48.420608"></pos>
+        <normal x="0.352356" y="0.926929" z="0.129024"></normal>
+        <trim x="-0.901234" y="0.373234" z="-0.220167"></trim>
+      </geometry>
+      <result>
+        <all checked="0" name="Edge Point 1" unit_name="length">
+          <deviation value="3.237753"></deviation>
+          <measured x="335.120638" y="720.184162" z="49.178659"></measured>
+        </all>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="2.613124"></deviation>
+          <measured x="0.920750" y="2.422181" z="0.337156"></measured>
+        </normal>
+        <trim checked="1" unit_name="length">
+          <tolerance lower_limit="-2.000000" upper_limit="2.000000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="-1.911711"></deviation>
+          <measured x="1.722899" y="-0.713515" z="0.420896"></measured>
+        </trim>
+      </result>
+    </point>
+    <point id="16778844" name="Edge Point 2_Kopie">
+      <actual>16778920</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="359.068826" y="719.713036" z="-33.091103"></pos>
+        <normal x="0.000000" y="0.000000" z="0.000000"></normal>
+        <trim x="-0.930791" y="0.361432" z="-0.054733"></trim>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="3.547427"></deviation>
+          <measured x="359.976773" y="723.114222" z="-32.653145"></measured>
+        </all>
+        <normal checked="0" name="Edge Point 2_Kopie" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <trim checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.600000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="0.360218"></deviation>
+          <measured x="-0.335287" y="0.130194" z="-0.019716"></measured>
+        </trim>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="359.068826"></nominal_scalar>
+          <deviation value="0.907947"></deviation>
+          <measured value="359.976773"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="719.713036"></nominal_scalar>
+          <deviation value="3.401186"></deviation>
+          <measured value="723.114222"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="-33.091103"></nominal_scalar>
+          <deviation value="0.437958"></deviation>
+          <measured value="-32.653145"></measured>
+        </z>
+      </result>
+    </point>
+    <point id="16778836" name="Vector Point 2_copy">
+      <measure_opposite use="yes">0.800000</measure_opposite>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="579.691049" y="753.000000" z="-59.985280"></pos>
+        <normal x="0.000000" y="1.000000" z="0.000000"></normal>
+      </geometry>
+      <result>
+        <all checked="0" name="Vector Point 2_copy" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <inplane checked="0" name="Vector Point 2_copy" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.100000"></tolerance>
+          <nominal_scalar value="579.691049"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="753.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="-59.985280"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </point>
+    <circle id="16778848" name="Point 4">
+      <state>not_computed</state>
+      <geometry>
+        <pos x="444.500000" y="751.000000" z="-3.990000"></pos>
+        <normal x="0.000000" y="1.000000" z="0.000000"></normal>
+        <radius>2.500000</radius>
+      </geometry>
+      <result>
+        <all checked="0" name="Point 4" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <diameter checked="1" unit_name="length">
+          <tolerance lower_limit="-5.000000" upper_limit="5.000000"></tolerance>
+          <nominal_scalar value="5.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </diameter>
+        <inplane checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <normal checked="0" name="Point 4" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+      </result>
+    </circle>
+    <curve id="16778910" name="sheet_metal_BODY-1_section">
+      <state>not_computed</state>
+      <geometry>
+        <curve_data chunk="0">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</curve_data>
+      </geometry>
+      <result></result>
+    </curve>
+    <curve id="16778908" name="section missing some normals">
+      <state>not_computed</state>
+      <geometry>
+        <curve_data chunk="0">AgAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAAAPAAAA5gXYR6cie0CjzAaZJCOHQJ5CrtSzJ4JA9wZfmEwae0DRevgyESWHQKMCJ9tgKIJAUfTAx+ARe0B8DcFxGSeHQACN0qWfKYJAmkF8YIcJe0DfwyXHHSmHQGKelbQiK4JABMjQsQMBe0BfzmxX6CqHQFWhgVi2LIJAlQ7W/3n4ekDHhJhLqiyHQKN2vwpQLoJAsW1RZgPwekApCB7ffi6HQPFHUWfuL4JALEoJwWrnekCQZiyaTjCHQI0kQbhiMYJAk1SmmAPfekBjDRe5RzKHQFjhlo/kMoJAlugss4jWekBnmNpSRzSHQJ9b6EpENIJA8u8zLhzOekD4TzdQYDaHQH9OQX6WNYJARWgEG5fFekAr+kMzbziHQAIOoUrNNoJA5+RFJiC9ekBwsDcxhDqHQM7ixcIQOIJAKO54k5+0ekCKVYMwlzyHQCBB8WNMOYJAlSnmICisekAzpIritT6HQODZHr2BOoJAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAPMENT/zBDU/8wQ1PwAAAADzBDU/8wQ1P/MENT8AAAAAOs0TPzrNEz86zRM/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAAAAAA==</curve_data>
+      </geometry>
+      <result></result>
+    </curve>
+    <point id="16778878" name="referenced distance 4.point2">
+      <actual>16778924</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="458.232132" y="758.667583" z="101.644964"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="referenced distance 4.point2" unit_name="length">
+          <deviation value="1.394207"></deviation>
+          <measured x="458.232132" y="760.054315" z="101.500787"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778874" name="Touch Point Edge 4 all tol">
+      <state>not_computed</state>
+      <geometry>
+        <pos x="367.315023" y="712.842837" z="231.845342"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="Touch Point Edge 4 all tol" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="367.315023"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="712.842837"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="231.845342"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </point>
+    <rectangular_hole id="16778862" name="RectHole 1 all tol + dir">
+      <measure_opposite use="yes">0.800000</measure_opposite>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="411.726286" y="754.422774" z="462.137928"></pos>
+        <normal x="-0.197889" y="0.942954" z="0.267726"></normal>
+        <dir x="-0.133567" y="0.244641" z="-0.960370"></dir>
+        <width>52.849898</width>
+        <length>65.880958</length>
+        <edge_radius>0.000000</edge_radius>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.100000" upper_limit="0.100000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <inplane checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.600000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <length checked="1" unit_name="length">
+          <tolerance lower_limit="-0.700000" upper_limit="0.700000"></tolerance>
+          <nominal_scalar value="65.880958"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </length>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <width checked="1" unit_name="length">
+          <tolerance lower_limit="-0.800000" upper_limit="0.800000"></tolerance>
+          <nominal_scalar value="52.849898"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </width>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.200000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="411.726286"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="754.422774"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="462.137928"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </rectangular_hole>
+    <rectangular_hole id="16778860" name="RectHole 1 all tol">
+      <measure_opposite use="yes">0.800000</measure_opposite>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="411.726286" y="754.422774" z="462.137928"></pos>
+        <normal x="-0.197889" y="0.942954" z="0.267726"></normal>
+        <dir x="0.000000" y="0.000000" z="0.000000"></dir>
+        <width>0.000000</width>
+        <length>0.000000</length>
+        <edge_radius>0.000000</edge_radius>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.100000" upper_limit="0.100000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <inplane checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.600000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <length checked="1" unit_name="length">
+          <tolerance lower_limit="-0.700000" upper_limit="0.700000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </length>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <width checked="1" unit_name="length">
+          <tolerance lower_limit="-0.800000" upper_limit="0.800000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </width>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.200000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="411.726286"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="754.422774"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="462.137928"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </rectangular_hole>
+    <point id="16778870" name="Touch Point Disc 3 all tol">
+      <state>not_computed</state>
+      <geometry>
+        <pos x="367.865645" y="723.186741" z="182.972910"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="Touch Point Disc 3 all tol" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.100000" upper_limit="0.100000"></tolerance>
+          <nominal_scalar value="367.865645"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.200000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="723.186741"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="182.972910"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </point>
+    <point id="16778872" name="Touch Point Edge 4">
+      <actual>16778922</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="367.315023" y="712.842837" z="231.845342"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="Touch Point Edge 4" unit_name="length">
+          <deviation value="2.000923"></deviation>
+          <measured x="367.360659" y="714.843234" z="231.840723"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778876" name="referenced distance 4.point1">
+      <actual>16778923</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="452.162586" y="759.882846" z="113.332202"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="referenced distance 4.point1" unit_name="length">
+          <deviation value="1.433864"></deviation>
+          <measured x="452.115074" y="761.307131" z="113.173702"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778868" name="Touch Point Disc 3">
+      <actual>16778921</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="367.865645" y="723.186741" z="182.972910"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="Touch Point Disc 3" unit_name="length">
+          <deviation value="2.014707"></deviation>
+          <measured x="368.192231" y="724.751615" z="181.746715"></measured>
+        </all>
+      </result>
+    </point>
+    <distance id="16778880" name="referenced distance 4">
+      <actual>16778939</actual>
+      <state>ok</state>
+      <geometry>
+        <distance x="6.069546" y="1.215263" z="11.687238"></distance>
+        <length>13.225271</length>
+        <pos1 x="452.162586" y="759.882846" z="113.332202"></pos1>
+        <pos2 x="458.232132" y="758.667583" z="101.644964"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16778886" name="referenced distance 4 all tol">
+      <actual>16778940</actual>
+      <state>ok</state>
+      <geometry>
+        <distance x="6.069546" y="1.215263" z="11.687238"></distance>
+        <length>13.225271</length>
+        <pos1 x="452.162586" y="759.882846" z="113.332202"></pos1>
+        <pos2 x="458.232132" y="758.667583" z="101.644964"></pos2>
+      </geometry>
+      <result>
+        <distance checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="13.225271"></nominal_scalar>
+          <deviation value="0.012739"></deviation>
+          <measured value="13.238009"></measured>
+        </distance>
+        <distance checked="1" restriction="x" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="6.069546"></nominal_scalar>
+          <deviation value="0.047512"></deviation>
+          <measured value="6.117058"></measured>
+        </distance>
+        <distance checked="1" restriction="y" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="1.215263"></nominal_scalar>
+          <deviation value="0.037553"></deviation>
+          <measured value="1.252816"></measured>
+        </distance>
+        <distance checked="1" restriction="z" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="11.687238"></nominal_scalar>
+          <deviation value="-0.014323"></deviation>
+          <measured value="11.672915"></measured>
+        </distance>
+      </result>
+    </distance>
+    <polygon_hole id="16778900" name="regular poly hole change #name suggestion# 1">
+      <state>not_computed</state>
+      <geometry>
+        <num_points>6</num_points>
+        <pos x="647.306370" y="-161.563237" z="49.920193"></pos>
+        <normal x="-0.003639" y="0.005293" z="-0.999979"></normal>
+        <dir x="0.511767" y="-0.859100" z="-0.006410"></dir>
+        <inner_radius>11.570706</inner_radius>
+        <outer_radius>13.360701</outer_radius>
+      </geometry>
+      <result>
+        <all checked="0" name="regular poly hole change #name suggestion# 1" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <inner_diameter checked="0" name="regular poly hole change #name suggestion# 1" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inner_diameter>
+        <inplane checked="0" name="regular poly hole change #name suggestion# 1" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <normal checked="0" name="regular poly hole change #name suggestion# 1" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <outer_diameter checked="0" name="regular poly hole change #name suggestion# 1" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </outer_diameter>
+      </result>
+    </polygon_hole>
+    <point id="16778894" name="symmetric point 1 all tol">
+      <actual>16778930</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="421.402495" y="754.472680" z="334.299515"></pos>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="1.458750"></deviation>
+          <measured x="420.623517" y="754.447049" z="333.066434"></measured>
+        </all>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="421.402495"></nominal_scalar>
+          <deviation value="-0.778978"></deviation>
+          <measured value="420.623517"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="754.472680"></nominal_scalar>
+          <deviation value="-0.025631"></deviation>
+          <measured value="754.447049"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="334.299515"></nominal_scalar>
+          <deviation value="-1.233081"></deviation>
+          <measured value="333.066434"></measured>
+        </z>
+      </result>
+    </point>
+    <point id="16778896" name="symmetric point 1 all tol.point1">
+      <actual>16778931</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="431.078704" y="754.522585" z="206.461101"></pos>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="0.765819"></deviation>
+          <measured x="430.836087" y="755.164816" z="206.121756"></measured>
+        </all>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="431.078704"></nominal_scalar>
+          <deviation value="-0.242617"></deviation>
+          <measured value="430.836087"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="754.522585"></nominal_scalar>
+          <deviation value="0.642231"></deviation>
+          <measured value="755.164816"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="206.461101"></nominal_scalar>
+          <deviation value="-0.339345"></deviation>
+          <measured value="206.121756"></measured>
+        </z>
+      </result>
+    </point>
+    <point id="16778898" name="symmetric point 1 all tol.point2">
+      <actual>16778932</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="411.726286" y="754.422774" z="462.137928"></pos>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="2.595070"></deviation>
+          <measured x="410.410947" y="753.729282" z="460.011113"></measured>
+        </all>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="411.726286"></nominal_scalar>
+          <deviation value="-1.315339"></deviation>
+          <measured value="410.410947"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="754.422774"></nominal_scalar>
+          <deviation value="-0.693492"></deviation>
+          <measured value="753.729282"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="462.137928"></nominal_scalar>
+          <deviation value="-2.126815"></deviation>
+          <measured value="460.011113"></measured>
+        </z>
+      </result>
+    </point>
+    <point id="16778890" name="symmetric point 1.point1">
+      <actual>16778928</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="431.078704" y="754.522585" z="206.461101"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="symmetric point 1.point1" unit_name="length">
+          <deviation value="0.765819"></deviation>
+          <measured x="430.836087" y="755.164816" z="206.121756"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778884" name="referenced distance 4 all tol.point2">
+      <actual>16778926</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="458.232132" y="758.667583" z="101.644964"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="referenced distance 4 all tol.point2" unit_name="length">
+          <deviation value="1.394207"></deviation>
+          <measured x="458.232132" y="760.054315" z="101.500787"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778882" name="referenced distance 4 all tol.point1">
+      <actual>16778925</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="452.162586" y="759.882846" z="113.332202"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="referenced distance 4 all tol.point1" unit_name="length">
+          <deviation value="1.433864"></deviation>
+          <measured x="452.115074" y="761.307131" z="113.173702"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778892" name="symmetric point 1.point2">
+      <actual>16778929</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="411.726286" y="754.422774" z="462.137928"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="symmetric point 1.point2" unit_name="length">
+          <deviation value="2.595070"></deviation>
+          <measured x="410.410947" y="753.729282" z="460.011113"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778888" name="symmetric point 1">
+      <actual>16778927</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="421.402495" y="754.472680" z="334.299515"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="symmetric point 1" unit_name="length">
+          <deviation value="1.458750"></deviation>
+          <measured x="420.623517" y="754.447049" z="333.066434"></measured>
+        </all>
+      </result>
+    </point>
+    <point_cloud id="16778905" name="point cloud 1.txt">
+      <state>not_computed</state>
+      <geometry>
+        <point x="413.303001" y="752.088466" z="282.622551">
+          <normal x="0.000000" y="1.000000" z="0.000000"></normal>
+        </point>
+        <point x="423.290030" y="752.537735" z="297.916163">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="429.810514" y="753.020583" z="270.335118">
+          <normal x="1.000000" y="0.000000" z="0.000000"></normal>
+        </point>
+        <point x="437.194957" y="753.158117" z="316.427175">
+          <normal x="0.707107" y="0.000000" z="0.707107"></normal>
+        </point>
+        <point x="437.991194" y="753.135731" z="281.831977">
+          <normal x="0.000000" y="0.000000" z="0.000000"></normal>
+        </point>
+        <point x="444.867534" y="753.486202" z="302.824336">
+          <normal x="0.000000" y="0.707107" z="0.707107"></normal>
+        </point>
+        <point x="449.599438" y="755.407921" z="239.218546">
+          <normal x="0.707107" y="0.707107" z="0.000000"></normal>
+        </point>
+        <point x="455.326019" y="755.381961" z="268.950628">
+          <normal x="0.577350" y="0.577350" z="0.577350"></normal>
+        </point>
+        <point x="469.320156" y="754.232019" z="275.624158">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+      </geometry>
+      <result></result>
+    </point_cloud>
+    <polygon_hole id="16778902" name="regular poly hole change #name suggestion# 2">
+      <state>not_computed</state>
+      <geometry>
+        <num_points>6</num_points>
+        <pos x="492.125212" y="-161.903522" z="122.452360"></pos>
+        <normal x="-0.038068" y="-0.005358" z="0.999261"></normal>
+        <dir x="-0.499729" y="-0.865858" z="-0.023680"></dir>
+        <inner_radius>11.000000</inner_radius>
+        <outer_radius>12.701706</outer_radius>
+      </geometry>
+      <result>
+        <all checked="0" name="regular poly hole change #name suggestion# 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <inner_diameter checked="0" name="regular poly hole change #name suggestion# 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inner_diameter>
+        <inplane checked="0" name="regular poly hole change #name suggestion# 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <normal checked="0" name="regular poly hole change #name suggestion# 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <outer_diameter checked="0" name="regular poly hole change #name suggestion# 2" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </outer_diameter>
+      </result>
+    </polygon_hole>
+    <polygon_hole id="16778904" name="regular poly hole change #name suggestion# 3">
+      <actual>16778941</actual>
+      <state>ok</state>
+      <geometry>
+        <num_points>6</num_points>
+        <pos x="647.379144" y="-161.669087" z="69.919781"></pos>
+        <normal x="0.003639" y="-0.005293" z="0.999979"></normal>
+        <dir x="-0.873760" y="0.486324" z="0.005754"></dir>
+        <inner_radius>10.400000</inner_radius>
+        <outer_radius>12.008886</outer_radius>
+      </geometry>
+      <result>
+        <all checked="0" name="regular poly hole change #name suggestion# 3" unit_name="length">
+          <deviation value="0.198337"></deviation>
+          <measured x="647.476164" y="-161.829778" z="69.983835"></measured>
+        </all>
+        <inner_diameter checked="0" name="regular poly hole change #name suggestion# 3" unit_name="length">
+          <deviation value="1.371220"></deviation>
+          <measured value="22.171220"></measured>
+        </inner_diameter>
+        <inplane checked="0" name="regular poly hole change #name suggestion# 3" unit_name="length">
+          <deviation value="0.187294"></deviation>
+          <measured x="0.096783" y="-0.160346" z="-0.001201"></measured>
+        </inplane>
+        <normal checked="0" name="regular poly hole change #name suggestion# 3" unit_name="length">
+          <deviation value="0.065256"></deviation>
+          <measured x="0.000237" y="-0.000345" z="0.065255"></measured>
+        </normal>
+        <outer_diameter checked="0" name="regular poly hole change #name suggestion# 3" unit_name="length">
+          <deviation value="1.583348"></deviation>
+          <measured value="25.601120"></measured>
+        </outer_diameter>
+      </result>
+    </polygon_hole>
+    <point id="16778832" name="Vector Point 1">
+      <actual>16778917</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="458.232132" y="758.667583" z="101.644964"></pos>
+        <normal x="0.000001" y="0.994639" z="-0.103412"></normal>
+      </geometry>
+      <result>
+        <all checked="0" name="Vector Point 1" unit_name="length">
+          <deviation value="1.394207"></deviation>
+          <measured x="458.232132" y="760.054315" z="101.500787"></measured>
+        </all>
+        <inplane checked="0" name="Vector Point 1" unit_name="length">
+          <deviation value="0.000002"></deviation>
+          <measured x="-0.000001" y="0.000000" z="0.000001"></measured>
+        </inplane>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-1.300000" upper_limit="1.300000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="1.394207"></deviation>
+          <measured x="0.000001" y="1.386732" z="-0.144178"></measured>
+        </normal>
+      </result>
+    </point>
+    <point id="16778826" name="Point 3">
+      <comment>This is a reference element.</comment>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="451.230619" y="761.241528" z="112.849314"></pos>
+      </geometry>
+      <result>
+        <all checked="0" name="Point 3" unit_name="length">
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778828" name="Point 1">
+      <comment>This element is not linked to actual data.</comment>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="387.478193" y="795.000000" z="285.015368"></pos>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+      </result>
+    </point>
+    <point id="16778830" name="Point 2">
+      <comment>This is a RPS element.</comment>
+      <actual>16778916</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="452.162586" y="759.882846" z="113.332202"></pos>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.600000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="1.433864"></deviation>
+          <measured x="452.115074" y="761.307131" z="113.173702"></measured>
+        </all>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="452.162586"></nominal_scalar>
+          <deviation value="-0.047512"></deviation>
+          <measured value="452.115074"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="759.882846"></nominal_scalar>
+          <deviation value="1.424285"></deviation>
+          <measured value="761.307131"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="113.332202"></nominal_scalar>
+          <deviation value="-0.158500"></deviation>
+          <measured value="113.173702"></measured>
+        </z>
+      </result>
+    </point>
+    <slotted_hole id="16778856" name="Slotted Hole tol + dir">
+      <measure_opposite use="yes">0.800000</measure_opposite>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="387.478193" y="795.000000" z="285.015368"></pos>
+        <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        <dir x="0.007634" y="0.999971" z="0.000000"></dir>
+        <width>1.700000</width>
+        <length>5.600000</length>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <inplane checked="1" unit_name="length">
+          <tolerance lower_limit="-1.000000" upper_limit="1.000000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <length checked="1" unit_name="length">
+          <tolerance lower_limit="-5.000000" upper_limit="5.000000"></tolerance>
+          <nominal_scalar value="5.600000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </length>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-0.900000" upper_limit="0.900000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <width checked="1" unit_name="length">
+          <tolerance lower_limit="-2.000000" upper_limit="2.000000"></tolerance>
+          <nominal_scalar value="1.700000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </width>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.600000"></tolerance>
+          <nominal_scalar value="387.478193"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.700000" upper_limit="0.700000"></tolerance>
+          <nominal_scalar value="795.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.800000" upper_limit="0.800000"></tolerance>
+          <nominal_scalar value="285.015368"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </slotted_hole>
+    <slotted_hole id="16778852" name="Slotted Hole 2">
+      <actual>16778934</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="431.078704" y="754.522585" z="206.461101"></pos>
+        <normal x="-0.087154" y="0.995903" z="0.024127"></normal>
+        <dir x="-0.052224" y="0.019618" z="-0.998443"></dir>
+        <width>14.367384</width>
+        <length>14.533458</length>
+      </geometry>
+      <result>
+        <all checked="0" name="Slotted Hole 2" unit_name="length">
+          <deviation value="0.765819"></deviation>
+          <measured x="430.836087" y="755.164816" z="206.121756"></measured>
+        </all>
+        <inplane checked="0" name="Slotted Hole 2" unit_name="length">
+          <deviation value="0.400809"></deviation>
+          <measured x="-0.185744" y="-0.007652" z="-0.355089"></measured>
+        </inplane>
+        <length checked="0" name="Slotted Hole 2" unit_name="length">
+          <deviation value="14.069007"></deviation>
+          <measured value="28.602465"></measured>
+        </length>
+        <normal checked="0" name="Slotted Hole 2" unit_name="length">
+          <deviation value="0.652557"></deviation>
+          <measured x="-0.056873" y="0.649883" z="0.015744"></measured>
+        </normal>
+        <width checked="0" name="Slotted Hole 2" unit_name="length">
+          <deviation value="7.485065"></deviation>
+          <measured value="21.852449"></measured>
+        </width>
+      </result>
+    </slotted_hole>
+    <slotted_hole id="16778854" name="Slotted Hole all tol">
+      <measure_opposite use="yes">0.800000</measure_opposite>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="387.478193" y="795.000000" z="285.015368"></pos>
+        <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        <dir x="0.000000" y="0.000000" z="0.000000"></dir>
+        <width>0.000000</width>
+        <length>0.000000</length>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <inplane checked="1" unit_name="length">
+          <tolerance lower_limit="-1.000000" upper_limit="1.000000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <length checked="1" unit_name="length">
+          <tolerance lower_limit="-5.000000" upper_limit="5.000000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </length>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-0.900000" upper_limit="0.900000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <width checked="1" unit_name="length">
+          <tolerance lower_limit="-2.000000" upper_limit="2.000000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </width>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.600000" upper_limit="0.600000"></tolerance>
+          <nominal_scalar value="387.478193"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.700000" upper_limit="0.700000"></tolerance>
+          <nominal_scalar value="795.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.800000" upper_limit="0.800000"></tolerance>
+          <nominal_scalar value="285.015368"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </slotted_hole>
+    <circle id="16778850" name="circle all tol">
+      <measure_opposite use="yes">0.400000</measure_opposite>
+      <state>not_computed</state>
+      <geometry>
+        <pos x="387.478193" y="795.000000" z="285.015368"></pos>
+        <normal x="0.000000" y="0.000000" z="-1.000000"></normal>
+        <radius>2.500000</radius>
+      </geometry>
+      <result>
+        <all checked="1" unit_name="length">
+          <tolerance lower_limit="-0.500000" upper_limit="0.500000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </all>
+        <diameter checked="1" unit_name="length">
+          <tolerance lower_limit="-5.500000" upper_limit="5.500000"></tolerance>
+          <nominal_scalar value="5.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </diameter>
+        <inplane checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </inplane>
+        <normal checked="1" unit_name="length">
+          <tolerance lower_limit="-0.200000" upper_limit="0.100000"></tolerance>
+          <nominal_scalar value="0.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </normal>
+        <x checked="1" unit_name="length">
+          <tolerance lower_limit="-0.400000" upper_limit="0.400000"></tolerance>
+          <nominal_scalar value="387.478193"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </x>
+        <y checked="1" unit_name="length">
+          <tolerance lower_limit="-0.300000" upper_limit="0.300000"></tolerance>
+          <nominal_scalar value="795.000000"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </y>
+        <z checked="1" unit_name="length">
+          <tolerance lower_limit="-0.200000" upper_limit="0.200000"></tolerance>
+          <nominal_scalar value="285.015368"></nominal_scalar>
+          <deviation value="invalid"></deviation>
+          <measured value="invalid"></measured>
+        </z>
+      </result>
+    </circle>
+    <rectangular_hole id="16778858" name="RectHole 1">
+      <actual>16778935</actual>
+      <state>ok</state>
+      <geometry>
+        <pos x="411.726286" y="754.422774" z="462.137928"></pos>
+        <normal x="-0.197889" y="0.942954" z="0.267726"></normal>
+        <dir x="-0.133567" y="0.244641" z="-0.960370"></dir>
+        <width>52.849898</width>
+        <length>65.880958</length>
+        <edge_radius>0.000000</edge_radius>
+      </geometry>
+      <result>
+        <all checked="0" name="RectHole 1" unit_name="length">
+          <deviation value="2.595070"></deviation>
+          <measured x="410.410947" y="753.729282" z="460.011113"></measured>
+        </all>
+        <inplane checked="0" name="RectHole 1" unit_name="length">
+          <deviation value="2.409759"></deviation>
+          <measured x="-1.505915" y="0.214614" z="-1.868983"></measured>
+        </inplane>
+        <length checked="0" name="RectHole 1" unit_name="length">
+          <deviation value="134.153890"></deviation>
+          <measured value="200.034848"></measured>
+        </length>
+        <normal checked="0" name="RectHole 1" unit_name="length">
+          <deviation value="-0.963044"></deviation>
+          <measured x="0.190576" y="-0.908106" z="-0.257832"></measured>
+        </normal>
+        <width checked="0" name="RectHole 1" unit_name="length">
+          <deviation value="32.230198"></deviation>
+          <measured value="85.080096"></measured>
+        </width>
+      </result>
+    </rectangular_hole>
+    <dimension id="16778866" name="Angle 2 all tol">
+      <comment>this is a comment</comment>
+      <actual>16778938</actual>
+      <state>ok</state>
+      <geometry>
+        <angle>90.000000</angle>
+        <pos x="546.610309" y="725.936143" z="27.093177"></pos>
+        <pos1 x="546.610309" y="755.936143" z="27.093177"></pos1>
+        <pos2 x="518.922249" y="726.184288" z="38.639161"></pos2>
+      </geometry>
+      <result>
+        <angle checked="1" name="Angle 2 all tol" unit_name="angle">
+          <tolerance lower_limit="-5.000000" upper_limit="5.000000"></tolerance>
+          <nominal_scalar value="90.000000"></nominal_scalar>
+          <deviation value="-0.473927"></deviation>
+          <measured value="89.526073"></measured>
+        </angle>
+      </result>
+    </dimension>
+    <dimension id="16778865" name="Angle 2">
+      <actual>16778937</actual>
+      <state>ok</state>
+      <geometry>
+        <angle>90.000000</angle>
+        <pos x="546.610309" y="725.936143" z="27.093177"></pos>
+        <pos1 x="546.610309" y="755.936143" z="27.093177"></pos1>
+        <pos2 x="518.922249" y="726.184288" z="38.639161"></pos2>
+      </geometry>
+      <result>
+        <angle checked="1" name="Angle 2" unit_name="angle">
+          <nominal_scalar value="90.000000"></nominal_scalar>
+          <deviation value="-0.473927"></deviation>
+          <measured value="89.526073"></measured>
+        </angle>
+      </result>
+    </dimension>
+    <dimension id="16778863" name="Distance 4">
+      <actual>16778936</actual>
+      <state>ok</state>
+      <geometry>
+        <distance>10.000000</distance>
+        <actual_pos1 x="443.922068" y="750.968386" z="-5.490376"></actual_pos1>
+        <actual_pos2 x="443.922068" y="751.089048" z="-15.703472"></actual_pos2>
+        <pos1 x="443.922068" y="750.968386" z="-5.490376"></pos1>
+        <pos2 x="443.922068" y="751.089048" z="-15.703472"></pos2>
+      </geometry>
+      <result>
+        <dimension checked="1" name="Distance 4" unit_name="length">
+          <nominal_scalar value="10.000000"></nominal_scalar>
+          <deviation value="0.213809"></deviation>
+          <measured value="10.213809"></measured>
+        </dimension>
+      </result>
+    </dimension>
+  </nominal>
+  <measured>
+    <point id="16778917" name="Vector Point 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="458.232132" y="760.054315" z="101.500787"></pos>
+        <normal x="-0.011548" y="0.992871" z="-0.118630"></normal>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778918" name="Edge Point 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="335.120638" y="720.184162" z="49.178659"></pos>
+        <normal x="0.348572" y="0.937027" z="0.021866"></normal>
+      </geometry>
+      <result></result>
+    </point>
+    <curve id="16779075" name="Section 1">
+      <state>ok</state>
+      <geometry>
+        <curve_data chunk="0">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</curve_data>
+      </geometry>
+      <result></result>
+    </curve>
+    <curve id="16779077" name="Marker Line 1">
+      <state>ok</state>
+      <geometry>
+        <curve_data chunk="0">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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</curve_data>
+      </geometry>
+      <result></result>
+    </curve>
+    <curve id="16779076" name="border 1">
+      <state>ok</state>
+      <geometry>
+        <curve_data chunk="0">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</curve_data>
+      </geometry>
+      <result></result>
+    </curve>
+    <rectangular_hole id="16778935" name="RectHole 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="410.410947" y="753.729282" z="460.011113"></pos>
+        <normal x="0.042575" y="0.998764" z="0.025631"></normal>
+        <dir x="-0.026323" y="0.026766" z="-0.999295"></dir>
+        <width>85.080096</width>
+        <length>200.034848</length>
+        <edge_radius>0.000000</edge_radius>
+      </geometry>
+      <result></result>
+    </rectangular_hole>
+    <rectangular_hole id="16779050" name="rectangular hole 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="410.410947" y="753.729282" z="460.011113"></pos>
+        <normal x="0.042575" y="0.998764" z="0.025631"></normal>
+        <dir x="-0.026323" y="0.026766" z="-0.999295"></dir>
+        <width>85.080096</width>
+        <length>200.034848</length>
+        <edge_radius>0.000000</edge_radius>
+      </geometry>
+      <result></result>
+    </rectangular_hole>
+    <slotted_hole id="16778934" name="Slotted Hole 2">
+      <state>ok</state>
+      <geometry>
+        <pos x="430.836087" y="755.164816" z="206.121756"></pos>
+        <normal x="-0.064260" y="0.997191" z="0.038479"></normal>
+        <dir x="0.186676" y="-0.025866" z="0.982081"></dir>
+        <width>21.852449</width>
+        <length>28.602465</length>
+      </geometry>
+      <result></result>
+    </slotted_hole>
+    <line id="16779054" name="border segment 3">
+      <state>ok</state>
+      <geometry>
+        <pos1 x="433.636628" y="716.676425" z="-46.504736"></pos1>
+        <pos2 x="433.569192" y="716.991602" z="-59.034145"></pos2>
+        <length>12.533554</length>
+        <dir x="-0.005380" y="0.025147" z="-0.999669"></dir>
+      </geometry>
+      <result></result>
+    </line>
+    <distance id="16779071" name="Caliper 1">
+      <state>ok</state>
+      <geometry>
+        <distance x="119.918460" y="5.510989" z="0.309911"></distance>
+        <length>120.045425</length>
+        <pos1 x="367.974877" y="742.485462" z="342.298751"></pos1>
+        <pos2 x="487.893337" y="736.974473" z="342.608662"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16779068" name="Distance 1">
+      <state>ok</state>
+      <geometry>
+        <distance x="59.668286" y="4.151681" z="25.143323"></distance>
+        <length>64.882413</length>
+        <pos1 x="437.854001" y="755.492391" z="209.145202"></pos1>
+        <pos2 x="378.185715" y="751.340710" z="184.001879"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16779070" name="Distance 2">
+      <state>ok</state>
+      <geometry>
+        <distance x="25.038272" y="0.298302" z="0.204024"></distance>
+        <length>25.040880</length>
+        <pos1 x="520.000000" y="738.590867" z="199.586227"></pos1>
+        <pos2 x="494.961728" y="738.889169" z="199.382203"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16778936" name="Distance 4">
+      <state>ok</state>
+      <geometry>
+        <distance x="0.000000" y="0.120662" z="10.213096"></distance>
+        <length>10.213809</length>
+        <pos1 x="443.922068" y="750.968386" z="-5.490376"></pos1>
+        <pos2 x="443.922068" y="751.089048" z="-15.703472"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16779072" name="Caliper 2">
+      <state>ok</state>
+      <geometry>
+        <distance x="124.734322" y="2.920918" z="1.184550"></distance>
+        <length>124.774140</length>
+        <pos1 x="368.583181" y="728.877837" z="417.800456"></pos1>
+        <pos2 x="493.317503" y="731.798755" z="418.985006"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16778939" name="referenced distance 4">
+      <state>ok</state>
+      <geometry>
+        <distance x="6.117058" y="1.252816" z="11.672915"></distance>
+        <length>13.238009</length>
+        <pos1 x="452.115074" y="761.307131" z="113.173702"></pos1>
+        <pos2 x="458.232132" y="760.054315" z="101.500787"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16779069" name="Distance 3">
+      <state>ok</state>
+      <geometry>
+        <distance x="35.160138" y="2.584137" z="11.880396"></distance>
+        <length>37.202915</length>
+        <pos1 x="424.862136" y="754.726143" z="200.735064"></pos1>
+        <pos2 x="389.701998" y="752.142006" z="188.854668"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16779073" name="Distance 5">
+      <state>ok</state>
+      <geometry>
+        <distance x="59.668286" y="4.151681" z="25.143323"></distance>
+        <length>64.882413</length>
+        <pos1 x="437.854001" y="755.492391" z="209.145202"></pos1>
+        <pos2 x="378.185715" y="751.340710" z="184.001879"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <distance id="16778940" name="referenced distance 4 all tol">
+      <state>ok</state>
+      <geometry>
+        <distance x="6.117058" y="1.252816" z="11.672915"></distance>
+        <length>13.238009</length>
+        <pos1 x="452.115074" y="761.307131" z="113.173702"></pos1>
+        <pos2 x="458.232132" y="760.054315" z="101.500787"></pos2>
+      </geometry>
+      <result></result>
+    </distance>
+    <point_cloud id="16779074" name="point cloud 1">
+      <state>ok</state>
+      <geometry>
+        <point x="413.503001" y="752.088466" z="282.622551">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="423.490030" y="752.567735" z="296.916163">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="429.910514" y="753.020583" z="270.395118">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="437.791194" y="753.135731" z="281.831977">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="437.794957" y="753.358117" z="318.227175">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="444.667534" y="753.486202" z="302.824336">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="449.499438" y="755.807921" z="239.218546">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="455.326019" y="755.381961" z="268.650628">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+        <point x="469.420156" y="754.232019" z="272.624158">
+          <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        </point>
+      </geometry>
+      <result></result>
+    </point_cloud>
+    <polygon_hole id="16778941" name="regular poly hole change #name suggestion# 3">
+      <state>ok</state>
+      <geometry>
+        <num_points>6</num_points>
+        <pos x="647.476164" y="-161.829778" z="69.983835"></pos>
+        <normal x="-0.000628" y="-0.000380" z="1.000000"></normal>
+        <dir x="0.477192" y="-0.878799" z="-0.000034"></dir>
+        <inner_radius>11.085610</inner_radius>
+        <outer_radius>12.800560</outer_radius>
+      </geometry>
+      <result></result>
+    </polygon_hole>
+    <sphere id="16779065" name="Touch point 5">
+      <state>ok</state>
+      <geometry>
+        <pos x="530.134541" y="726.004992" z="81.749559"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <sphere id="16779062" name="Touch point 2">
+      <state>ok</state>
+      <geometry>
+        <pos x="533.232454" y="726.977651" z="39.497537"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <sphere id="16779063" name="Touch point 3">
+      <state>ok</state>
+      <geometry>
+        <pos x="526.414309" y="728.725223" z="-17.646781"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <sphere id="16779064" name="Touch point 4">
+      <state>ok</state>
+      <geometry>
+        <pos x="539.216708" y="727.473113" z="10.861614"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <circle id="16778933" name="Circle 2">
+      <state>ok</state>
+      <geometry>
+        <pos x="443.922068" y="750.968386" z="-5.490376"></pos>
+        <normal x="0.001926" y="0.999928" z="0.011814"></normal>
+        <radius>10.213809</radius>
+      </geometry>
+      <result></result>
+    </circle>
+    <sphere id="16779066" name="Touch point 6">
+      <state>ok</state>
+      <geometry>
+        <pos x="566.580588" y="726.371734" z="8.444271"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <circle id="16779036" name="Circle 4">
+      <state>ok</state>
+      <geometry>
+        <pos x="443.922068" y="750.968386" z="-5.490376"></pos>
+        <normal x="0.001926" y="0.999928" z="0.011814"></normal>
+        <radius>10.213809</radius>
+      </geometry>
+      <result></result>
+    </circle>
+    <sphere id="16779042" name="Sphere 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="483.977305" y="748.900278" z="564.819178"></pos>
+        <radius>9.754038</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <polygon_hole id="16779046" name="regular poly 1">
+      <state>ok</state>
+      <geometry>
+        <num_points>6</num_points>
+        <pos x="567.821270" y="-161.883052" z="93.208747"></pos>
+        <normal x="0.000000" y="0.000000" z="1.000000"></normal>
+        <dir x="-0.856492" y="-0.516160" z="0.000000"></dir>
+        <inner_radius>11.101840</inner_radius>
+        <outer_radius>12.819301</outer_radius>
+      </geometry>
+      <result></result>
+    </polygon_hole>
+    <sphere id="16779055" name="Point 4-5">
+      <state>ok</state>
+      <geometry>
+        <pos x="534.507839" y="725.745899" z="85.639017"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <sphere id="16779056" name="Point 4-6">
+      <state>ok</state>
+      <geometry>
+        <pos x="534.885166" y="726.271535" z="65.219120"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <cone id="16779044" name="Cone 1">
+      <state>ok</state>
+      <geometry>
+        <pos1 x="441.954729" y="766.441802" z="68.237005"></pos1>
+        <pos2 x="447.107207" y="772.539769" z="39.804488"></pos2>
+        <dir x="0.174471" y="0.206486" z="-0.962769"></dir>
+        <radius1>10.539494</radius1>
+        <radius2>20.660681</radius2>
+        <angle>18.917556</angle>
+        <origin x="436.589300" y="760.091807" z="97.844633"></origin>
+        <height1>30.752592</height1>
+        <height2>60.284630</height2>
+      </geometry>
+      <result></result>
+    </cone>
+    <sphere id="16779057" name="Point 4-8">
+      <state>ok</state>
+      <geometry>
+        <pos x="548.013332" y="726.940758" z="16.490984"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <sphere id="16779058" name="Point 4-9">
+      <state>ok</state>
+      <geometry>
+        <pos x="545.150821" y="727.656027" z="-5.950483"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <sphere id="16779059" name="Point 4-10">
+      <state>ok</state>
+      <geometry>
+        <pos x="548.021278" y="726.871237" z="19.280194"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <sphere id="16779060" name="Point 4-11">
+      <state>ok</state>
+      <geometry>
+        <pos x="548.134851" y="727.332180" z="0.908317"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <sphere id="16779061" name="Point 4-12">
+      <state>ok</state>
+      <geometry>
+        <pos x="583.346231" y="724.685564" z="45.490842"></pos>
+        <radius>0.000000</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <polygon_hole id="16779045" name="regular poly 2">
+      <state>ok</state>
+      <geometry>
+        <num_points>6</num_points>
+        <pos x="647.476164" y="-161.829778" z="69.983835"></pos>
+        <normal x="-0.000628" y="-0.000380" z="1.000000"></normal>
+        <dir x="0.477192" y="-0.878799" z="-0.000034"></dir>
+        <inner_radius>11.085610</inner_radius>
+        <outer_radius>12.800560</outer_radius>
+      </geometry>
+      <result></result>
+    </polygon_hole>
+    <circle id="16779048" name="Circle 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="443.720000" y="750.820000" z="-5.590000"></pos>
+        <normal x="0.042453" y="0.998783" z="0.025095"></normal>
+        <radius>12.206978</radius>
+      </geometry>
+      <result></result>
+    </circle>
+    <cone id="16779053" name="cone 1">
+      <state>ok</state>
+      <geometry>
+        <pos1 x="447.058662" y="768.741731" z="60.643554"></pos1>
+        <pos2 x="454.606084" y="775.111154" z="51.082659"></pos2>
+        <dir x="0.549076" y="0.463376" z="-0.695556"></dir>
+        <radius1>4.803392</radius1>
+        <radius2>7.955639</radius2>
+        <angle>12.916098</angle>
+        <origin x="435.557905" y="759.036008" z="75.212440"></origin>
+        <height1>20.945665</height1>
+        <height2>34.691350</height2>
+      </geometry>
+      <result></result>
+    </cone>
+    <sphere id="16779051" name="sphere 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="484.980000" y="749.900000" z="565.820000"></pos>
+        <radius>16.170895</radius>
+      </geometry>
+      <result></result>
+    </sphere>
+    <circle id="16779037" name="Circle adj">
+      <state>ok</state>
+      <geometry>
+        <pos x="431.335739" y="754.184357" z="239.685588"></pos>
+        <normal x="-0.091250" y="0.995077" z="0.038673"></normal>
+        <radius>9.912378</radius>
+      </geometry>
+      <result></result>
+    </circle>
+    <slotted_hole id="16779038" name="Slotted Hole 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="430.836087" y="755.164816" z="206.121756"></pos>
+        <normal x="-0.064260" y="0.997191" z="0.038479"></normal>
+        <dir x="0.186676" y="-0.025866" z="0.982081"></dir>
+        <width>21.852449</width>
+        <length>28.602465</length>
+      </geometry>
+      <result></result>
+    </slotted_hole>
+    <slotted_hole id="16779049" name="slotted hole 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="430.980558" y="754.943307" z="206.541449"></pos>
+        <normal x="0.042314" y="0.998792" z="0.024999"></normal>
+        <dir x="0.076465" y="0.021711" z="-0.996836"></dir>
+        <width>23.564830</width>
+        <length>25.034187</length>
+      </geometry>
+      <result></result>
+    </slotted_hole>
+    <line id="16779032" name="Line adj">
+      <state>ok</state>
+      <geometry>
+        <pos1 x="430.569799" y="754.106313" z="239.873775"></pos1>
+        <pos2 x="444.573582" y="754.294194" z="267.776068"></pos2>
+        <length>31.219853</length>
+        <dir x="0.448554" y="0.006018" z="0.893736"></dir>
+      </geometry>
+      <result></result>
+    </line>
+    <slotted_hole id="16779039" name="Slotted hole 2 adj">
+      <state>ok</state>
+      <geometry>
+        <pos x="412.440151" y="751.221905" z="462.535712"></pos>
+        <normal x="-0.078423" y="0.996581" z="-0.025998"></normal>
+        <dir x="-0.002710" y="0.025865" z="0.999662"></dir>
+        <width>51.182369</width>
+        <length>66.116674</length>
+      </geometry>
+      <result></result>
+    </slotted_hole>
+    <line id="16779033" name="应用名称 1">
+      <comment>The name contains special characters.
+They are chinese characters.
+And this comment contains multiple lines.
+</comment>
+      <state>ok</state>
+      <geometry>
+        <pos1 x="511.188997" y="716.269461" z="315.531357"></pos1>
+        <pos2 x="511.930750" y="716.566240" z="300.646773"></pos2>
+        <length>14.906009</length>
+        <dir x="0.049762" y="0.019910" z="-0.998563"></dir>
+      </geometry>
+      <result></result>
+    </line>
+    <rectangular_hole id="16779040" name="Rectangular Hole 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="410.410947" y="753.729282" z="460.011113"></pos>
+        <normal x="0.029559" y="0.992112" z="-0.121820"></normal>
+        <dir x="0.032569" y="-0.122764" z="-0.991901"></dir>
+        <width>48.838224</width>
+        <length>64.780928</length>
+        <edge_radius>0.000000</edge_radius>
+      </geometry>
+      <result></result>
+    </rectangular_hole>
+    <rectangular_hole id="16779041" name="Rectangular Hole 2 adj">
+      <state>ok</state>
+      <geometry>
+        <pos x="369.989880" y="732.905599" z="324.706615"></pos>
+        <normal x="-0.996576" y="0.082675" z="-0.000574"></normal>
+        <dir x="-0.082676" y="-0.996576" z="0.001059"></dir>
+        <width>11.933224</width>
+        <length>17.437999</length>
+        <edge_radius>0.000000</edge_radius>
+      </geometry>
+      <result></result>
+    </rectangular_hole>
+    <point id="16778930" name="symmetric point 1 all tol">
+      <state>ok</state>
+      <geometry>
+        <pos x="420.623517" y="754.447049" z="333.066434"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778931" name="symmetric point 1 all tol.point1">
+      <state>ok</state>
+      <geometry>
+        <pos x="430.836087" y="755.164816" z="206.121756"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778927" name="symmetric point 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="420.623517" y="754.447049" z="333.066434"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <angle_3d id="16778938" name="Angle 2 all tol">
+      <comment>this is a comment</comment>
+      <state>ok</state>
+      <geometry>
+        <angle>89.526073</angle>
+        <pos x="546.610309" y="725.936143" z="27.093177"></pos>
+        <pos1 x="546.610309" y="755.936143" z="27.093177"></pos1>
+        <pos2 x="518.922249" y="726.184288" z="38.639161"></pos2>
+      </geometry>
+      <result></result>
+    </angle_3d>
+    <point id="16778916" name="Point 2">
+      <comment>This is a RPS element.</comment>
+      <state>ok</state>
+      <geometry>
+        <pos x="452.115074" y="761.307131" z="113.173702"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778913" name="Oberflächenpunkt 1">
+      <state>ok</state>
+      <geometry>
+        <pos x="545.688113" y="725.101357" z="68.162281"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <plane id="16779034" name="Plane 1 with bad characters: /&lt;&gt;!&quot;'´`°^$~#öüä@µ€">
+      <state>ok</state>
+      <geometry>
+        <normal x="0.007634" y="0.999966" z="-0.003184"></normal>
+        <distance>-729.997863</distance>
+        <pos x="552.687764" y="725.906767" z="32.440170"></pos>
+        <length>20.000000</length>
+        <width>20.000000</width>
+        <orientation>0.000000</orientation>
+      </geometry>
+      <result></result>
+    </plane>
+    <point id="16778925" name="referenced distance 4 all tol.point1">
+      <state>ok</state>
+      <geometry>
+        <pos x="452.115074" y="761.307131" z="113.173702"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778912" name="Point adj">
+      <state>ok</state>
+      <geometry>
+        <pos x="430.307858" y="754.103067" z="239.380231"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778915" name="Point Side 3">
+      <state>ok</state>
+      <geometry>
+        <pos x="540.524162" y="725.981834" z="42.163763"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778928" name="symmetric point 1.point1">
+      <state>ok</state>
+      <geometry>
+        <pos x="430.836087" y="755.164816" z="206.121756"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778920" name="Edge Point 2_Kopie">
+      <state>ok</state>
+      <geometry>
+        <pos x="359.976773" y="723.114222" z="-32.653145"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <plane id="16779047" name="Plane Side 1">
+      <state>ok</state>
+      <geometry>
+        <normal x="0.041761" y="0.998822" z="0.024716"></normal>
+        <distance>-749.247972</distance>
+        <pos x="600.687910" y="723.692691" z="53.510152"></pos>
+        <length>10.018748</length>
+        <width>10.018748</width>
+        <orientation>0.000000</orientation>
+      </geometry>
+      <result></result>
+    </plane>
+    <angle_3d id="16779067" name="Angle 1">
+      <state>ok</state>
+      <geometry>
+        <angle>89.526073</angle>
+        <pos x="546.610309" y="725.936143" z="27.093177"></pos>
+        <pos1 x="546.610309" y="755.936143" z="27.093177"></pos1>
+        <pos2 x="518.922249" y="726.184288" z="38.639161"></pos2>
+      </geometry>
+      <result></result>
+    </angle_3d>
+    <point id="16778914" name="Point Side 2">
+      <state>ok</state>
+      <geometry>
+        <pos x="569.956955" y="724.865710" z="38.196717"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778921" name="Touch Point Disc 3">
+      <state>ok</state>
+      <geometry>
+        <pos x="368.192231" y="724.751615" z="181.746715"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778924" name="referenced distance 4.point2">
+      <state>ok</state>
+      <geometry>
+        <pos x="458.232132" y="760.054315" z="101.500787"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778932" name="symmetric point 1 all tol.point2">
+      <state>ok</state>
+      <geometry>
+        <pos x="410.410947" y="753.729282" z="460.011113"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778926" name="referenced distance 4 all tol.point2">
+      <state>ok</state>
+      <geometry>
+        <pos x="458.232132" y="760.054315" z="101.500787"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778922" name="Touch Point Edge 4">
+      <state>ok</state>
+      <geometry>
+        <pos x="367.360659" y="714.843234" z="231.840723"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778911" name="タイトル 1">
+      <comment>The name contains japanese characters.</comment>
+      <state>ok</state>
+      <geometry>
+        <pos x="451.230619" y="761.241528" z="112.849314"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <point id="16778919" name="Edge Point 2">
+      <state>ok</state>
+      <geometry>
+        <pos x="359.976773" y="723.114222" z="-32.653145"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <angle_3d id="16778937" name="Angle 2">
+      <state>ok</state>
+      <geometry>
+        <angle>89.526073</angle>
+        <pos x="546.610309" y="725.936143" z="27.093177"></pos>
+        <pos1 x="546.610309" y="755.936143" z="27.093177"></pos1>
+        <pos2 x="518.922249" y="726.184288" z="38.639161"></pos2>
+      </geometry>
+      <result></result>
+    </angle_3d>
+    <point id="16778923" name="referenced distance 4.point1">
+      <state>ok</state>
+      <geometry>
+        <pos x="452.115074" y="761.307131" z="113.173702"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <plane id="16779035" name="Plane adj">
+      <state>ok</state>
+      <geometry>
+        <normal x="-0.090847" y="0.995109" z="0.038782"></normal>
+        <distance>-720.605634</distance>
+        <pos x="431.572938" y="754.189822" z="240.094701"></pos>
+        <length>20.000000</length>
+        <width>20.000000</width>
+        <orientation>0.000000</orientation>
+      </geometry>
+      <result></result>
+    </plane>
+    <point id="16778929" name="symmetric point 1.point2">
+      <state>ok</state>
+      <geometry>
+        <pos x="410.410947" y="753.729282" z="460.011113"></pos>
+      </geometry>
+      <result></result>
+    </point>
+    <cylinder id="16779043" name="Cylinder 1">
+      <state>ok</state>
+      <geometry>
+        <pos1 x="513.499820" y="738.345025" z="44.399362"></pos1>
+        <pos2 x="511.481478" y="741.770071" z="96.297324"></pos2>
+        <dir x="-0.038777" y="0.065803" z="0.997079"></dir>
+        <radius>16.669798</radius>
+        <length>52.050006</length>
+      </geometry>
+      <result></result>
+    </cylinder>
+    <cylinder id="16779052" name="cylinder 1">
+      <state>ok</state>
+      <geometry>
+        <pos1 x="511.471472" y="742.483941" z="77.237477"></pos1>
+        <pos2 x="511.609156" y="740.312419" z="66.201315"></pos2>
+        <dir x="0.012240" y="-0.193048" z="-0.981113"></dir>
+        <radius>8.568268</radius>
+        <length>11.248614</length>
+      </geometry>
+      <result></result>
+    </cylinder>
+  </measured>
+</gom>

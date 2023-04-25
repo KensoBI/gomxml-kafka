@@ -79,6 +79,20 @@ services:
       Kafka__NumPartitions: 2
       Kafka__ReplicationFactor: 1
 
+  gomxml-pgSubscriber:
+    container_name: gomxml-pgsubscriber
+    image: kensobi/gomxml-pgsubscriber
+    build:
+      context: .
+      dockerfile: pgSubscriber.Dockerfile
+    restart: always
+    environment:
+      ConnectionString: "Host=postgres;Port=5432;Database=kensobi;Username=kensobi;Password=kensobiuser"
+      Kafka__BootstrapServers: kafka:29092
+      Kafka__Topic: dev.kenso.gom.xml
+      Kafka__SchemaRegistries: http://schema-registry:8081
+      Kafka__GroupId: dev-gom
+
   postgres:
     image: kensobi/postgres
     restart: unless-stopped
