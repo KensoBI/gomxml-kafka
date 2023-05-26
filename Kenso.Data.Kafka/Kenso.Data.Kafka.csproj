@@ -4,6 +4,10 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>kenso</Authors>
+    <Company>Kenso Software</Company>
+    <Description>A generic implementation of Apache Kafka producer and consumer utilizing Avro for message serialization.</Description>
+    <Title>Kenso.Data.Kafka</Title>
   </PropertyGroup>
 
   <ItemGroup>
