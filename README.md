@@ -10,20 +10,23 @@
 - Archive processed file
 
 **Features:**
+
 - Runs in a container
 - .NET class model for GOM XML serialization
 - Lightweight and extendable
 - Schema registry integration with Avro serialization using [Chr.Avro](https://github.com/ch-robinson/dotnet-avro)
-- Commercial support offered by  [Kenso Software](https://kensobi.com)
+- Commercial support offered by [Kenso Software](https://kensobi.com)
 
 ## Getting Started
+
 Open [docker-compose.yml](docker-compose.yml) and update `volume` mapping. Map `/processing` directory to location where your XML files are locatted:
 
 ```yml
     volumes:
       - d:\Processing:/processing
 ```
-Make sure you have [Docker](https://docker.com/) installed and configured. After that, you can run the below command from the **root** directory and get started immediately. 
+
+Make sure you have [Docker](https://docker.com/) installed and configured. After that, you can run the below command from the **root** directory and get started immediately.
 
 ```console
 docker-compose up
@@ -40,18 +43,21 @@ The following apps will be started for you:
 You can also start it from Visual Studio. You will need VS 2022 and .NET 7 SDK.
 
 ## Getting Help
+
 If you have any questions or feedback:
 
-- Ask a question on the [KensoBI Discord](https://discord.gg/bPaB9zwH) channel 
+- Ask a question on the [KensoBI Discord](https://discord.gg/JDzMTcQBca) channel
 - [File an issue](https://github.com/KensoBI/gomxml-kafka/issues/new) for bugs, issues and feature suggestions.
 
 Your feedback is always welcome!
 
 ## License
+
 This software is distributed under [Apache License 2.0](license).
 
 ## Notes
-Copyright (c) 
+
+Copyright (c)
 2023 [Kenso Software](https://kensobi.com)
 
 KAFKA is a registered trademark of The Apache Software Foundation. GOM Inspect is a registered trademark of Carl Zeiss GOM Metrology GmbH. gomxml-kafka has no affiliation with and is not endorsed by Carl Zeiss GOM Metrology GmbH nor The Apache Software Foundation.

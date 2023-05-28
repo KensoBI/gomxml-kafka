@@ -1,6 +1,5 @@
 ﻿using Confluent.Kafka;
 using Kenso.Data.Kafka;
-using Kenso.Domain;
 using Kenso.Loaders.Gom.Model;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;

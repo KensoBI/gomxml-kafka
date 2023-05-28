@@ -11,12 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kenso.Loaders.Gom.UnitTests
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kenso.Services.Gom.PgSubscriber", "Kenso.Services.Gom.PgSubscriber\Kenso.Services.Gom.PgSubscriber.csproj", "{B9504238-EDA2-4F23-9924-D7108FC48A5F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kenso.Data.Repository", "Kenso.Data.Repository\Kenso.Data.Repository.csproj", "{4065F2C1-4E22-45BB-95F3-7BAC73999572}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kenso.Domain", "Kenso.Domain\Kenso.Domain.csproj", "{5EC03136-06BB-4B98-B91B-551B7D2C9745}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kenso.Data.Kafka", "Kenso.Data.Kafka\Kenso.Data.Kafka.csproj", "{E2F7F8EA-F47B-4E03-B74E-CFEDFBFF7E19}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,18 +33,6 @@ Global
 		{B9504238-EDA2-4F23-9924-D7108FC48A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9504238-EDA2-4F23-9924-D7108FC48A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9504238-EDA2-4F23-9924-D7108FC48A5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4065F2C1-4E22-45BB-95F3-7BAC73999572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4065F2C1-4E22-45BB-95F3-7BAC73999572}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4065F2C1-4E22-45BB-95F3-7BAC73999572}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4065F2C1-4E22-45BB-95F3-7BAC73999572}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5EC03136-06BB-4B98-B91B-551B7D2C9745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5EC03136-06BB-4B98-B91B-551B7D2C9745}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5EC03136-06BB-4B98-B91B-551B7D2C9745}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5EC03136-06BB-4B98-B91B-551B7D2C9745}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2F7F8EA-F47B-4E03-B74E-CFEDFBFF7E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2F7F8EA-F47B-4E03-B74E-CFEDFBFF7E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2F7F8EA-F47B-4E03-B74E-CFEDFBFF7E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2F7F8EA-F47B-4E03-B74E-CFEDFBFF7E19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
